@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0; 
+    background-image: url(../images/unnamed\ —\ копия.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+            clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
+  /* STICKY-FOOTER */
+.site-main{
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
+
+.intro-game-box {
+    max-width: 450px;
+    margin: 300px auto 305px auto;
+    padding: 30px 10px;
+    border-radius: 20px;
+    background-image: url(../images/36.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.game-enter-select {
+    width: 250px;
+    padding: 10px;
+    appearance: none;
+    background-image: url("../images/down-arrow.svg");
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: center right 10px;
+    border: none;
+}
+
+.intro-game-btn {
+    padding: 10px 45px;
+    font-weight: 700;
+    font-size: 18px;
+    color:#fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    transition: all .5s;
+}
+
+.intro-game-btn:hover {
+    color: rgb(224, 184, 7);
+    background-color: #fff;
+}
+
+
+.game-wrapper-box {
+    display: none;
+    margin: 20px 0 0 0;
+}
+
+.game-counter-top-box {
+    width: 120px;
+}
+
+
+.game-time-text-box {
+    width: 100px;
+}
+
+
+.game-time-text--over {
+    color: #f00;
+}
+
+
+.game-qs-box {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 12px #223c5033;
+}
+
+
+
+.game-card-list {
+    margin: 40px 0 0 0;
+    padding-left: 0;
+}
+
+
+.game-card-item {
+    width: 215px;
+    margin: 20px 10px;
+    border-radius: 10px;
+}
+
+.game-card-box {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.game-card-box {
+    pointer-events: none;
+}
+
+.game-card-box--off {
+    opacity: 0;
+}
+
+.game-card-img {
+    height: 200px;
+    pointer-events: none;
+}
+
+
+.game-over-modal,
+.game-win-modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #54444480;
+    background-image: url(../images/back-to-future.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.sitebody--js{
+    overflow: hidden;
+}
